@@ -1,0 +1,10 @@
+[
+  { "id": "pub_001", "title": "Graph Neural Networks for Citation Prediction", "views": 42 },
+  { "id": "pub_002", "title": "A Survey of Transformer Architectures in NLP", "views": 128 },
+  { "id": "pub_003", "title": "Reinforcement Learning in Autonomous Vehicles", "views": 87 },
+  { "id": "pub_004", "title": "Quantum Computing: A Practical Overview", "views": 15 },
+  { "id": "pub_005", "title": "Federated Learning for Medical Imaging", "views": 64 },
+  { "id": "pub_006", "title": "Differential Privacy in Data Publishing", "views": 33 },
+  { "id": "pub_007", "title": "A Study of Bias in Large Language Models", "views": 201 },
+  { "id": "pub_008", "title": "Efficient Indexing for High-Dimensional Vectors", "views": 19 }
+]

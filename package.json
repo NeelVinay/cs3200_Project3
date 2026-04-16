@@ -1,0 +1,25 @@
+{
+  "name": "cs3200_project3",
+  "version": "1.0.0",
+  "description": "CS3200 Project 3 — Redis in-memory store for most-viewed publications in the Academic Contribution Registry.",
+  "main": "src/demo.js",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "demo": "node src/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeelVinay/cs3200project3.git"
+  },
+  "keywords": ["redis", "cs3200", "sorted-set", "academic-registry"],
+  "author": "Neel Vinay, Krishna Raheja",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NeelVinay/cs3200project3/issues"
+  },
+  "homepage": "https://github.com/NeelVinay/cs3200project3#readme",
+  "dependencies": {
+    "redis": "^5.12.1"
+  }
+}
