@@ -12,7 +12,7 @@ re-implemented in Project 2 with MongoDB). The Redis layer tracks the
 - Project 1 (SQLite): <https://github.com/NeelVinay/cs3200project1>
 - Project 2 (MongoDB): <https://github.com/NeelVinay/cs3200project2>
 - Project 3 (Redis, this repo): <https://github.com/NeelVinay/cs3200project3>
-- **Video demo:** [Watch on YouTube](https://www.youtube.com/watch?v=rJ2NCdgvkYQ)
+- **Video demo:** [VIDEO.md](./VIDEO.md)
 - **Requirements PDF:** [`requirements.pdf`](./requirements.pdf)
 - **UML conceptual model:** [`AcademicContributionRegistry_UML.png`](./AcademicContributionRegistry_UML.png)
 
