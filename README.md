@@ -147,12 +147,14 @@ CS3200_Project3/
 
 ## How to run
 
-### 1. Prerequisites
+### Prerequisites
 
 - Node.js 18 or later
-- Redis server running locally on `127.0.0.1:6379`
+- Redis server running on `127.0.0.1:6379`
 
-On macOS:
+---
+
+#### macOS
 
 ```bash
 brew install redis
@@ -160,19 +162,46 @@ brew services start redis
 redis-cli ping          # expect: PONG
 ```
 
-### 2. Install dependencies
+---
+
+#### Windows (Docker)
+
+1. Make sure Docker Desktop is installed and running.
+2. Start a Redis container (maps Redis's default port 6379 to your machine):
+   ```bash
+   docker run -d -p 6379:6379 --name redis redis
+   ```
+3. Verify Redis is reachable:
+   ```bash
+   docker exec -it redis redis-cli ping
+   # expect: PONG
+   ```
+4. To stop Redis when you're done:
+   ```bash
+   docker stop redis
+   ```
+5. To restart it later without recreating it:
+   ```bash
+   docker start redis
+   ```
+
+> **Note:** If you already have a Redis container running from Docker Desktop, skip step 2 — just make sure port 6379 is mapped.
+
+---
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Seed Redis with the sample data
+### 2. Seed Redis with the sample data
 
 ```bash
 npm run seed
 ```
 
-### 4. Run the CRUD demo
+### 3. Run the CRUD demo
 
 ```bash
 npm run demo
